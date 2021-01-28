@@ -1,0 +1,62 @@
+html, body 
+{
+	height: 100%;
+	margin: 0px; padding: 0px;
+}
+
+body 
+{
+	display : table;
+	width: 100%;
+}
+
+footer 
+{
+	display : table-row;
+    height: 150px; /* réglage page */
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+}
+
+.flottant
+{
+    float: left;
+    margin: 22px 0 0 30px;
+    
+}
+
+#conteneur_entete
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.element
+{
+    padding: 30px;   
+}
+
+.button:hover  /* Au survol de la souris */
+{
+    border-top: solid 3px blue;
+    padding-top: 28px;
+}
+
+a /* Lien en général */
+{
+    text-decoration: none;
+    color: black;
+}
+
+#conteneur_footer
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.button_footer:hover
+{
+    border-bottom: solid 1px blue;
+    
+}
